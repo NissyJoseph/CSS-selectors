@@ -1,0 +1,51 @@
+/* 1) ONCLICK MAKE FIELD BORDER BLUE */
+
+#odd :focus{border: 5px solid blue;
+                  border-radius: 30px;
+                  padding: 15px;}
+#submit:focus{padding: 10px; border: solid black;}
+                   
+/* 2) ACHIEVE MANDATORY SYMBOL USING CSS */
+
+.mandatory::before{content:"*";color: red;}
+
+/* 3) MANDATORY MESSAGE WHILE SUBMIT */
+
+             /*  Added required Attribute  */
+
+/* 4) MOUSE OVER ON MANDOTORY LABEL TEXT -GREEN */
+
+div .mandatory:hover
+           {color: green;font-size: larger;}
+
+/* 5) MOUSE OVER ON NON-MANDATORY LABEL -YELLOW */
+
+div .non-mandatory:hover
+           {color: yellow;font-size: larger;}
+
+
+
+
+
+/*  Even  */
+
+/*  1) (*) ACHIVE USING HTML AND MAKE IT AS RED */
+
+label span{color: red;}
+
+/*  2) DROPDOWN SHOULD HAVE SHADOW */
+
+#even select{box-shadow: 5px 5px ;}
+
+/*  3) DROPDOWN VALUES HAVE ALTERNATE COLORS */
+
+option:nth-child(odd){background-color:blue;color: white;}
+option:nth-child(even){background-color: brown;color: white;}
+
+/*  4) MANDATORY LABELS FIRST LETTER SHOULD BE BOLDER THAN OTHER LETTERS */
+
+#letter ::first-letter{font-weight: bolder; color: red;}
+
+/*  5) checkbox selected should change the color of the text to red */
+
+input:checked+label {color: red;font-weight: bolder;}
