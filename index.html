@@ -6,18 +6,20 @@
     <title>Selectors in CSS</title>
     <link rel="stylesheet" href="selector.css">
     <style> 
-    #odd{font-size: 20px; background-color: aqua;border-radius: 30px;padding: 20px;}
+    #odd{font-size: 20px; border-radius: 30px;padding: 20px;border: 10px solid black;}
     #odd input{ border-radius: 15px;padding: 10px;}
-    #even{font-size: 20px;background-color: chartreuse;border-radius: 30px;padding: 20px}
+    #even{font-size: 20px;border-radius: 30px;padding: 20px;border: 10px solid black;}
     #even input{padding: 10px;border-radius: 8px;}
     #even select{padding: 5px;font-size: 15px;border-radius: 10px;}
-    h1{color: aliceblue;}
+    h1{font-style: italic;}
      </style>
 </head>
-<body style="text-align: center; background-color: indigo;">
-    <h1>ODD QUESTION ANSWERS</h1>
+<body style="text-align: center; ">
+    
+<form id=odd>
 
-    <form id=odd>
+     <h1>ODD QUESTION ANSWERS</h1>
+
        <div> <label class="mandatory">NAME :- </label></div>
              <input type="text" required>  <br> <br>
        <div> <label class="mandatory">DOB :- </label></div>
@@ -31,11 +33,14 @@
        <input type="checkbox"> <span> Agree to the terms & conditions</span> <br><br>
    
        <strong><input id="submit" type="submit"></strong> <br>
-    </form>
+    </form> <br>
 
-    <h1>EVEN QUESTION ANSWERS</h1>
+    
 
-    <form id="even">
+<form id="even">
+
+     <h1>EVEN QUESTION ANSWERS</h1>
+
       <div id="letter"> <div> <label>NAME<span>*</span></label></div>
              <input type="text" required> <br><br>
        <div> <label>EMAIL<span>*</span></label></div>
