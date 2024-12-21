@@ -4,7 +4,7 @@
             {border: 5px solid blue;
                   border-radius: 30px;
                   padding: 15px;
-                transition: ease-in-out 3s;}
+                transition: ease-in-out 1s;}
 #submit:focus
             {padding: 10px; border: solid black;}
                    
